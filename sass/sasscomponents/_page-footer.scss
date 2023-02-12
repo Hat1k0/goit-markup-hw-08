@@ -1,0 +1,180 @@
+.footer {
+    background-color: var(--dark-background);
+    width: 100%;
+    padding: 60px 0;
+    .container {
+        display: flex;
+        align-items: baseline;
+}
+   
+}
+.container{
+ .footer__social_content {
+     margin-left: 93px;
+ }
+
+ .footer__sending {
+     display: flex;
+     align-items: flex-end;
+     margin-left: auto;
+ }
+}
+// Перший блок футера з логотипом і адресами
+.footer__first_content{
+    .footer__logo {
+            color: var(--primary-white-color);
+        }
+    .footer__address {
+        margin-top: 20px;
+        font-style: normal;
+    }
+}
+// Стилі логотипа і адрес
+
+// Лого 
+.footer__logo {
+    text-decoration: none;
+    color: var(--primary-white-color);
+    font-family: "Raleway";
+    font-weight: var(--bold-font-weight);
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    .footer__span_logo {
+        color: var(--accent-color);
+    }
+}
+
+// Стилі списків 
+.footer__address_list {
+    margin: 0;
+    padding: 0;
+    .address__list-item,
+    .contact__list-item {list-style: none;}
+    #contact__list-item {
+        display: block;
+        margin-top: 9px;
+        margin-bottom: 6px;
+    }
+}
+// Стилі лінків
+.footer__address_link {
+    text-decoration: none;
+    color: var(--primary-white-color);
+    font-style: normal;
+    font-weight: var(--regular-font-weight);
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+.footer__link_mail,
+.footer__link_num {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--primary-white-color);
+    opacity: 60%;
+    text-decoration: none;
+    font-style: normal;
+}
+
+// Другий блок футера з соціальними лінками і іконками
+
+// Стиль для заголовка і списку
+.footer__social_content{
+    .footer__social_title {
+        font-weight: var(--bold-font-weight);
+        color: #fff;
+        font-size: 14px;
+        line-height: 1.1;
+        letter-spacing: 0.03em;
+        }
+    .footer__social_list {
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        margin-top: 20px;
+    }
+
+}
+
+// Стилі для соціальних іконок 
+.footer__list-item_icon:not(:last-child) {
+    margin-right: 10px;
+    
+
+}
+.footer__link_icon {
+    display: flex;
+    text-decoration: none;
+    background-color: #ffffff10;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    fill: #fff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus,
+    &:hover {
+        background-color: var(--accent-color);
+        fill: #fff;
+    }
+}
+
+// Третій блок футера з інпутом і кнопкою
+.footer__block_sending {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+// Стилі для заголовка і вводу емейлу
+.footer__label_sending {
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+}
+.footer__input_sending {
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    width: 358px;
+    height: 50px;
+    background-color: #2f303a;
+    border: 1px solid #ffffff4d;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.03em;
+    color: #ffffff60;
+    outline: none;
+}
+// Стилі для кнопки
+.footer__btn_send{
+    padding: 0;
+    margin-left: 12px;
+    display: flex;
+    width: 200px;
+    height: 50px;
+    background-color: #2196f3;
+    color: #fff;
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border: none;
+    border-radius: 4px;
+    .footer_send_icon {
+        margin-left: 7px;
+        fill: #fff;
+        }
+}

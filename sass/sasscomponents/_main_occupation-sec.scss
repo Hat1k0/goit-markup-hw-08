@@ -1,0 +1,51 @@
+// Секція "Чим ми займаємось"
+.main__occupation_section .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .occupation__title {
+        margin: 0;
+        margin-bottom: 50px;
+        font-weight: var(--bold-font-weight);
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+        text-align: center;
+    }
+
+    .occupation__ul {
+        display: flex;
+        padding: 0;
+        list-style: none;
+    }
+}
+
+.main__occupation_list-item {
+    .occupation__img {
+        position: relative;
+    }
+
+    .occupation__img_discription {
+        display: flex;
+        position: absolute;
+        width: 370px;
+        height: 70px;
+        background-color: #2f303acc;
+        transform: translateY(-70px);
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 16px;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #fff;
+    }
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}

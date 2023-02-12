@@ -1,0 +1,150 @@
+// Стилі для сторінки портфоліо 
+
+.project__section {
+    padding-top: 94px;
+
+    .container {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+
+}
+
+.container {
+
+    // Таблиця робіт
+    .project__list {
+        display: flex;
+        flex-wrap: wrap;
+        margin: -20px;
+        list-style: none;
+        font-weight: var(--medium-font-weight);
+        font-size: var(--primary-font-size);
+    }
+
+    // Навігаційне меню робіт (Фільтер)
+    .project__list_filter {
+        display: flex;
+        list-style: none;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+}
+
+// Навіганійне меню портфоліо
+.filter__list-item {
+    font-family: inherit;
+    font-style: inherit;
+    line-height: 1.625;
+    letter-spacing: inherit;
+    color: inherit;
+
+    &:not(:last-child) {
+        margin-right: 8px;
+    }
+
+    button {
+        font-weight: var(--medium-font-weight);
+        border-radius: 4px;
+        border: none;
+        cursor: pointer;
+        background-color: #f5f4fa;
+        padding: 6px 24px;
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    button:hover,
+    button:focus {
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        background-color: var(--accent-color);
+        color: var(--primary-white-color);
+    }
+
+    .portfolio__filter_btn {
+        margin: 0;
+        font-weight: var(--medium-font-weight);
+        font-size: 16px;
+        line-height: 1.625;
+        text-align: center;
+        letter-spacing: 0.03em;
+        font-weight: var(--medium-font-weight);
+        font-size: var(--primary-font-size);
+    }
+}
+
+// Стилі робіт
+.project__list-item {
+    margin: 15px;
+
+    a {
+        position: relative;
+        text-decoration: none;
+        display: block;
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    & a:focus,
+    & a:hover {
+        box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+            1px 4px 6px rgba(0, 0, 0, 0.16);
+    }
+
+    & a:focus .project__hover_discription,
+    & a:hover .project__hover_discription {
+        transform: translateY(0%);
+    }
+
+    a .project__discription {
+        margin: 0;
+        font-size: var(--project-discription-size);
+        line-height: 1.9;
+        color: var(--secondary-text-color);
+        font-weight: var(--regular-font-weight);
+    }
+}
+
+.project__hover_block {
+    overflow: hidden;
+    position: relative;
+
+    .project__hover_discription {
+        transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+            transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        transform: translateY(101%);
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        color: #fff;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.55;
+        letter-spacing: 0.03em;
+        padding: 63px 24px;
+        background-color: #2196f3e5;
+        height: 294px;
+        width: 370px;
+    }
+}
+
+.project__block_text {
+    border-bottom: 1px #eeeeee solid;
+    border-right: 1px #eeeeee solid;
+    border-left: 1px #eeeeee solid;
+    padding: 20px 24px;
+
+    .project__title {
+        margin: 0;
+        margin-bottom: 4px;
+        color: var(--title-text-color);
+        font-weight: var(--bold-font-weight);
+        font-size: var(--project-title-size);
+        line-height: 2;
+    }
+}

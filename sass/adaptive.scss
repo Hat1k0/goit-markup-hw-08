@@ -1,0 +1,17 @@
+.header {
+    .conteiner{
+    width: 480px;
+    justify-content: space-between;
+    padding: 16px 15px;
+    }
+}
+.conteiner {
+    .head__contacts_list {
+            display: none;
+        }
+    .burger-btn {
+        padding: 0;
+        background-color: #fff;
+        border: none;
+    }
+}

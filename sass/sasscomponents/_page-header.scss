@@ -1,0 +1,99 @@
+
+
+.header{ background: #fff;
+border-bottom: 1px solid #ececec;
+    .container{
+    align-items: center;
+    display: flex;
+    }
+}
+// head logo
+.head__logo{
+    font-family: var(--logo-font);
+    font-weight: var(--bold-font-weight);
+    font-size: var(--logo-font-size);
+    color: var(--title-text-color);
+    text-decoration: none;
+    list-style: none;
+    letter-spacing: 0.03em;
+    margin-right: 94px;
+    .head__span_logo {
+            color: var(--accent-color);
+        }
+}
+
+// Навігація
+.nav__list{
+    display: flex;
+    list-style: none;
+    .nav__list-item {
+        text-decoration: none;
+        font-weight: var(--medium-font-weight);
+        font-size: var(--primary-font-size);
+        line-height: 1.1;
+        letter-spacing: 0.02em;
+        }
+    .nav__list-item:not(:last-child) {
+        margin-right: 50px;
+        }
+    .nav__link{
+        display: block;
+        position: relative;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        text-decoration: none;
+        color: var(--title-text-color);
+        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+        .nav__link:hover,.nav__link:focus{color: var(--accent-color);}
+}
+// Стиль активної сторінки
+#head__activity {
+    color: var(--accent-color);
+    &:after {
+        display: block;
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 4px;
+        border-radius: 2px;
+        bottom: -1px;
+        background-color: var(--accent-color);
+        }
+}
+// Стилі контактів 
+.head__contacts_list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+    list-style: none;
+    .head__list-item_contacts:not(:last-child){margin-right: 50px;}
+}
+.head__contacts_link{
+    display: flex;
+    align-items: center;
+    padding: 2px 0;
+    color: var(--secondary-text-color);
+    fill: var(--secondary-text-color);
+    text-decoration: none;
+    font-weight: var(--medium-font-weight);
+    font-size: var(--primary-font-size);
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1),
+                color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,&:focus {
+        color: var(--accent-color);
+        fill: var(--accent-color);
+        }
+    .head__mail_icon {margin-right: 7px;}
+    .head__tel_icon {margin-right: 7px;}
+}
+
+.burger-btn{
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}

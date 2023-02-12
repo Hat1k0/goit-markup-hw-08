@@ -1,0 +1,46 @@
+// Секція особливостей (Іконки)
+.features__list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.features__list-item {
+    width: 270px;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+
+    .features__icon {
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+        background-color: #f5f4fa;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .features__list-item_title {
+        margin: 0;
+        margin-bottom: 10px;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1.2;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: var(--title-text-color);
+    }
+
+    .features__list-item_discription {
+        margin: 0;
+        font-size: 14px;
+        line-height: 1.7;
+        letter-spacing: 0.03em;
+        color: var(--secondary-text-color);
+    }
+}
+

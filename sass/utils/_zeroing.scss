@@ -1,0 +1,38 @@
+// Обнуление і загальні силі
+body {
+    font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.section {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 94px;
+    width: 100%;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    padding: 0px 15px;
+}

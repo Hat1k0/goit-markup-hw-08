@@ -1,0 +1,26 @@
+.burger-btn {
+    padding: 0;
+    background-color: #fff;
+    border: none;
+}
+.mob-menu__block {
+    position: absolute;
+
+    width: 480px;
+    background-color: #fff;
+    &.is-hidden {
+            opacity: 0;
+            visibility: hidden;
+            pointer-events: none;
+        }
+}
+.menu-close {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+}
+
+.mob-menu__bottom-list,
+.mob-menu__top-list {
+    list-style: none;
+}

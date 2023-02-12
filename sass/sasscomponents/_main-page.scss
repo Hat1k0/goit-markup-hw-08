@@ -1,0 +1,35 @@
+// Стилі для головної сторінки
+
+// Загальні стилі для секцій
+.main {
+    width: 100%;
+
+    .main__hero_section {
+        background-image: linear-gradient(to right, #2f303a60, #2f303a60),
+            url(../image/main-bg-img.jpg);
+        background-repeat: no-repeat;
+        max-width: 1600px;
+        max-height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 200px 0;
+    }
+
+    .main__features_section {
+        padding-top: 94px;
+    }
+
+    .main__portfolio_section {
+        background-color: #f5f4fa;
+        width: 100%;
+    }
+
+    .main__clientage_section {
+        padding-top: 94px;
+    }
+}
+
+
+
+
+

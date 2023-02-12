@@ -1,0 +1,57 @@
+// Секція клієнтів (Іконки)
+.main__clientage_section .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .clientage__title {
+        text-align: center;
+        margin: 0;
+        margin-bottom: 50px;
+        font-weight: var(--bold-font-weight);
+        font-size: 36px;
+        line-height: 1.16;
+        letter-spacing: 0.03em;
+        color: var(--title-text-color);
+    }
+
+    .clientage__list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+.clientage__list-item {
+    display: flex;
+
+    &:not(:last-child) {
+        margin-right: 30px;
+    }
+}
+
+.clientage__link_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #afb1b8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus,
+    &:hover {
+        border: 1px solid #2196f3;
+    }
+
+    &:focus,
+    &:hover .clientage__icon {
+        fill: #2196f3;
+    }
+
+    .clientage__icon {
+        transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+        fill: #afb1b8;
+    }
+}
