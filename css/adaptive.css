@@ -459,7 +459,7 @@ img {
   }
   /* CLIENTAGE SEC */
   .main__clientage_section .container {
-    width: 100%;
+    width: 1200px;
   }
   .clientage__list {
     width: 1200px;
@@ -469,7 +469,7 @@ img {
     justify-content: space-between;
   }
   .clientage__link_icon {
-    width: 210px;
+    width: 170px;
   }
   .clientage__list-item:not(:last-child) {
     margin-right: 30px;
