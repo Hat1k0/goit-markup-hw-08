@@ -27,8 +27,13 @@ img {
 }
 .mob-menu__block {
   display: flex;
-
+  z-index: 999;
   background-color: #fff;
+}
+.mob-menu__block.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
 .mob-menu__flex-box {
   display: flex;
@@ -42,11 +47,6 @@ img {
   height: 100vh;
   padding: 48px 40px;
   justify-content: space-between;
-}
-.mob-menu__block.is-hidden {
-  opacity: 0;
-  visibility: hidden;
-  pointer-events: none;
 }
 .mob-menu__btn-close {
   top: 21px;
