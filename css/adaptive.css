@@ -115,7 +115,7 @@ img {
 /* HERO SEC */
 .main .main__hero_section {
   background-image: linear-gradient(to right, #2f303a60, #2f303a60),
-    url(/image/hero-bg-mob-x2.jpg);
+    url(../image/hero-bg-mob-x2.jpg);
   background-size: cover;
   width: 100%;
   height: auto;
