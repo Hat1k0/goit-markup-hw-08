@@ -64,6 +64,9 @@ img {
 .mob-menu__top-list {
   list-style: none;
 }
+.mob-menu__top-list-item #head__activity:after {
+  display: none;
+}
 .mob-menu__top-list-item:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -115,10 +118,12 @@ img {
 /* HERO SEC */
 .main .main__hero_section {
   background-image: linear-gradient(to right, #2f303a60, #2f303a60),
-    url(../image/hero-bg-mob-x2.jpg);
+    url(../image/main-bg.jpg);
   background-size: cover;
   width: 100%;
-  height: auto;
+  height: 400px;
+  padding-top: 118px;
+  padding-bottom: 118px;
 }
 .main__hero_section .container {
   width: 100%;
@@ -167,6 +172,8 @@ img {
   width: 480px;
   flex-direction: column;
   flex-wrap: wrap;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .our-team__list-item {
   display: flex;
@@ -299,6 +306,14 @@ img {
   .head__list-item_contacts:not(:last-child) {
     margin-bottom: 10px;
   }
+  /* HERO SEC */
+  .main .main__hero_section {
+    background-image: linear-gradient(to right, #2f303a60, #2f303a60),
+      url(../image/main-bg@2x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
   /* FEATURES */
   .main__features_section .container {
     justify-content: center;
@@ -324,6 +339,8 @@ img {
     display: flex;
     flex-flow: row wrap;
     grid-gap: 30px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .our-team__list .our-team__list-item {
     justify-content: center;
@@ -408,12 +425,17 @@ img {
   .nav {
     display: flex;
   }
-  /* MAIN HERO */
+  /* HERO SEC */
   .main .main__hero_section {
     background-image: linear-gradient(to right, #2f303a60, #2f303a60),
-      url(../image/main-bg-img.jpg);
+      url(../image/main-bg@3x.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    padding: 200px 0px;
   }
   /* FEATURES */
+
   .main__features_section .container {
     max-width: 1170px;
   }
@@ -448,6 +470,7 @@ img {
     display: flex;
     flex-flow: row wrap;
     grid-gap: 0px;
+    padding: 0;
   }
   .our-team__list .our-team__list-item {
     justify-content: center;
