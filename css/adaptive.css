@@ -8,7 +8,6 @@ img {
 /* HEADER */
 .header .container {
   width: 480px;
-  justify-content: space-between;
   padding: 16px 15px;
 }
 .nav__list {
@@ -67,6 +66,9 @@ img {
   display: none;
 }
 /* OUR TEAM SEC */
+.main__portfolio_section {
+  padding-top: 60px;
+}
 .main__portfolio_section .container {
   width: 480px;
   align-items: center;
@@ -90,6 +92,9 @@ img {
 
 .main__occupation_list-item:not(:last-child) {
   margin: 0px;
+}
+.container .our-team__title {
+  margin-bottom: 30px;
 }
 /* CLIENTAGE SEC */
 .main__clientage_section .container {
@@ -319,6 +324,7 @@ img {
   }
   .head__contacts_list {
     display: flex;
+    margin-left: auto;
     flex-direction: row;
     align-items: center;
   }

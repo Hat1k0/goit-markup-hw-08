@@ -866,9 +866,8 @@
 }
 
 .burger-btn {
-  position: relative;
-  top: 0px;
-  right: -95px;
+  display: flex;
+  margin-left: auto;
   padding: 0;
   background-color: #fff;
   border: none;
