@@ -1,16 +1,16 @@
 // Підключені scss
 
-@import "/sass/sasscomponents/page-header";
-@import "/sass/sasscomponents/page-footer";
-@import "/sass/sasscomponents/main-page";
-@import "/sass/sasscomponents/main-hero-sec";
-@import "/sass/sasscomponents/main-features-sec";
-@import "/sass/sasscomponents/main_occupation-sec";
-@import "/sass/sasscomponents/main-portfolio-sec";
-@import "/sass/sasscomponents/main-clientage-sec";
-@import "/sass/sasscomponents/portfolio-page";
-@import "/sass/sasscomponents/main-backdrop";
-@import "/sass/sasscomponents/mob-menu";
+@import "./sasscomponents/page-header";
+@import "./sasscomponents/page-footer";
+@import "./sasscomponents/main-page";
+@import "./sasscomponents/main-hero-sec";
+@import "./sasscomponents/main-features-sec";
+@import "./sasscomponents/main_occupation-sec";
+@import "./sasscomponents/main-portfolio-sec";
+@import "./sasscomponents/main-clientage-sec";
+@import "./sasscomponents/portfolio-page";
+@import "./sasscomponents/main-backdrop";
+@import "./sasscomponents/mob-menu";
 
-@import "/sass/utils/variables";
-@import "/sass/utils/zeroing";
+@import "./utils/variables";
+@import "./utils/zeroing";
