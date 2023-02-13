@@ -53,8 +53,8 @@
   &:not(:last-child) {
     margin-bottom: 32px;
   }
-  #head__activity:after {
-    display: none;
+  .head__activity {
+    color: #2196f3;
   }
   .mob-menu__top-link {
     font-weight: 500;
