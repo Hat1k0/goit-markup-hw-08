@@ -39,7 +39,7 @@ img {
 }
 /* FEATURES */
 .main__features_section .container {
-  width: 100%;
+  width: 480px;
   padding: 0px 15px;
   justify-content: center;
 }
@@ -89,7 +89,6 @@ img {
 .our-team__list-item:not(:last-child) {
   margin-right: 0px;
 }
-
 .main__occupation_list-item:not(:last-child) {
   margin: 0px;
 }
@@ -260,7 +259,7 @@ img {
   }
   /* CLIENTAGE SEC */
   .main__clientage_section .container {
-    width: 100%;
+    width: 798px;
   }
   .clientage__list {
     width: 768px;
@@ -343,6 +342,12 @@ img {
     height: 600px;
     padding: 200px 0px;
   }
+  .hero__title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.35px;
+  }
+
   /* FEATURES */
 
   .main__features_section .container {
@@ -359,6 +364,9 @@ img {
   }
   .features__list-item:not(:last-child) {
     margin-right: 30px;
+  }
+  .features__list-item .features__list-item_discription {
+    text-align: start;
   }
   /* OCCUPATION SEC */
   .main__occupation_section {
@@ -423,7 +431,7 @@ img {
     font-size: 14px;
     line-height: 1.7;
   }
-  /* PORTFOLIO STORY */
+  /* PORTFOLIO PAGE */
   .project__section .container {
     width: 1200px;
   }
@@ -432,12 +440,13 @@ img {
   .container .project__list_filter {
     width: 768px;
     padding-right: 0px;
+    margin-top: 60px;
   }
   #filter__btn_design,
   #filter__btn_marketing {
     margin-top: 0px;
   }
-  /* PROJECT LIST */
+  /* PROJECT LIST  */
 
   .project__list {
     flex-flow: row wrap;
