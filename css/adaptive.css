@@ -74,7 +74,7 @@ img {
   align-items: center;
 }
 .our-team__list {
-  width: 480px;
+  width: 450px;
   flex-direction: column;
   flex-wrap: wrap;
   padding-left: 15px;
@@ -97,7 +97,7 @@ img {
 }
 /* CLIENTAGE SEC */
 .main__clientage_section .container {
-  width: 100%;
+  width: 480px;
 }
 .clientage__list {
   width: 480px;
