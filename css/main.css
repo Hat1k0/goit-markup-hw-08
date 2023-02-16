@@ -301,10 +301,6 @@
   text-align: center;
 }
 
-.container {
-  display: flex;
-  align-items: baseline;
-}
 .container .hero__title {
   width: 696px;
   margin-right: auto;
@@ -581,6 +577,7 @@
   list-style: none;
   justify-content: center;
   margin-bottom: 50px;
+  margin-top: 60px;
 }
 
 .filter__list-item {
@@ -657,7 +654,7 @@
   font-weight: 400;
   font-size: 18px;
   line-height: 1.55;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.06em;
   padding: 63px 24px;
   background-color: rgba(33, 150, 243, 0.8980392157);
   height: 294px;
@@ -671,6 +668,10 @@
   padding: 20px 24px;
 }
 .project__block_text .project__title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
   margin: 0;
   margin-bottom: 4px;
   color: var(--title-text-color);

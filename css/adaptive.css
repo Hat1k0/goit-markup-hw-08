@@ -28,9 +28,7 @@ img {
   padding-bottom: 118px;
 }
 .main__hero_section .container {
-  width: 100%;
-  margin: 0;
-  align-items: center;
+  width: 480px;
 }
 .container .hero__title {
   width: 360px;
@@ -163,7 +161,7 @@ img {
 }
 /* FOOTER */
 .footer .container {
-  width: 460px;
+  width: 480px;
   flex-direction: column;
   align-items: center;
   text-align: center;
@@ -224,6 +222,7 @@ img {
   /* FEATURES */
   .main__features_section .container {
     justify-content: center;
+    width: 768px;
   }
   .features__list {
     justify-content: center;
@@ -259,7 +258,7 @@ img {
   }
   /* CLIENTAGE SEC */
   .main__clientage_section .container {
-    width: 798px;
+    width: 768px;
   }
   .clientage__list {
     width: 768px;
@@ -296,6 +295,9 @@ img {
   .project__list-item {
     width: 354px;
   }
+  .first-project__block_text {
+    height: 145px;
+  }
   .project__img {
     width: 100%;
     height: auto;
@@ -318,7 +320,7 @@ img {
 @media screen and (min-width: 1200px) {
   /* HEADER */
   .header .container {
-    width: 1170px;
+    width: 1200px;
     justify-content: space-between;
   }
   .head__contacts_list {
@@ -351,7 +353,7 @@ img {
   /* FEATURES */
 
   .main__features_section .container {
-    max-width: 1170px;
+    max-width: 1200px;
   }
   .features__list {
     justify-content: center;
@@ -454,6 +456,9 @@ img {
   .project__list-item {
     width: 370px;
   }
+  .first-project__block_text {
+    height: auto;
+  }
   .project__img {
     height: auto;
   }
@@ -464,7 +469,7 @@ img {
   /* FOOTER */
   .footer .container {
     justify-content: center;
-    width: 1170px;
+    width: 1200px;
     height: 140px;
     flex-direction: row;
     text-align: start;
