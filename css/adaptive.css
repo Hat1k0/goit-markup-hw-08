@@ -353,7 +353,7 @@ img {
   /* FEATURES */
 
   .main__features_section .container {
-    max-width: 1200px;
+    width: 1200px;
   }
   .features__list {
     justify-content: center;

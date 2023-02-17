@@ -181,6 +181,34 @@
           <h2 class="occupation__title">Чим ми займаємось</h2>
           <ul class="occupation__ul">
             <li class="main__occupation_list-item">
+              <picture>
+                <source
+                  srcset="
+                    ./image/workspace__x1.jpg 1x,
+                    ./image/workspace__x2.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <img
+                  class="occupation__img"
+                  src="image/workspace.jpg"
+                  alt="workspace-image"
+                  width="370"
+                  height="294"
+                />
+              </picture>
+              <a class="occupation__img_discription" href=""
+                >ДЕКСТОПНІ ДОДАТКИ</a
+              >
+            </li>
+            <li class="main__occupation_list-item">
+              <source
+                srcset="
+                  ./image/workspace2__x1.jpg 1x,
+                  ./image/workspace2__x2.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
               <img
                 class="occupation__img"
                 src="image/workspace2.jpg"
@@ -189,26 +217,21 @@
                 height="294"
               />
               <a class="occupation__img_discription" href=""
-                >ДЕКСТОПНІ ДОДАТКИ</a
-              >
-            </li>
-            <li class="main__occupation_list-item">
-              <img
-                src="image/workspace.jpg"
-                alt="workspace-image"
-                class="occupation__img"
-                width="370"
-                height="294"
-              />
-              <a class="occupation__img_discription" href=""
                 >МОБІЛЬНІ ДОДАТКИ</a
               >
             </li>
             <li class="main__occupation_list-item">
+              <source
+                srcset="
+                  ./image/workspace3__x1.jpg 1x,
+                  ./image/workspace3__x2.jpg 2x
+                "
+                media="(min-width:1200px)"
+              />
               <img
+                class="occupation__img"
                 src="image/workspace3.jpg"
                 alt="workspace-image"
-                class="occupation__img"
                 width="370"
                 height="294"
               />
@@ -224,7 +247,35 @@
           <h2 class="our-team__title">Наша команда</h2>
           <ul class="our-team__list">
             <li class="our-team__list-item">
-              <img src="image/igor.jpg" alt="person-foto" class="person-foto" />
+              <picture>
+                <source
+                  srcset="
+                    ./image/igor-desk__x1.jpg 1x,
+                    ./image/igor-desk__x2.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./image/igor-tab__x1.jpg 1x,
+                    ./image/igor-tab__x2.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./image/igor-mob__x1.jpg 1x,
+                    ./image/igor-mob__x2.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="image/igor.jpg"
+                  alt="person-foto"
+                  class="person-foto"
+                />
+              </picture>
+
               <div class="our-team__person_block">
                 <h3 class="our-team__person_title">Ігор Дем'яненко</h3>
                 <p class="our-team__person_discription">Product Designer</p>
@@ -259,7 +310,34 @@
               </div>
             </li>
             <li class="our-team__list-item">
-              <img class="person-foto" src="image/olga.jpg" alt="person foto" />
+              <picture>
+                <source
+                  srcset="
+                    ./image/olga-desk__x1.jpg 1x,
+                    ./image/olga-desk__x2.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./image/olga-tab__x1.jpg 1x,
+                    ./image/olga-tab__x2.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./image/olga-mob__x1.jpg 1x,
+                    ./image/olga-mob__x2.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="image/olga.jpg"
+                  alt="person-foto"
+                  class="person-foto"
+                />
+              </picture>
               <div class="our-team__person_block">
                 <h3 class="our-team__person_title">Ольга Рєпіна</h3>
                 <p class="our-team__person_discription">Frontend Developer</p>
@@ -294,11 +372,34 @@
               </div>
             </li>
             <li class="our-team__list-item">
-              <img
-                src="image/mykola.jpg"
-                alt="person foto"
-                class="person-foto"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./image/mykola-desk__x1.jpg 1x,
+                    ./image/mykola-desk__x2.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./image/mykola-tab__x1.jpg 1x,
+                    ./image/mykola-tab__x2.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./image/mykola-mob__x1.jpg 1x,
+                    ./image/mykola-mob__x2.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="image/mykola.jpg"
+                  alt="person-foto"
+                  class="person-foto"
+                />
+              </picture>
               <div class="our-team__person_block">
                 <h3 class="our-team__person_title">Микола Тарасов</h3>
                 <p class="our-team__person_discription">Marketing</p>
@@ -333,11 +434,34 @@
               </div>
             </li>
             <li class="our-team__list-item">
-              <img
-                src="image/mykhailo.jpg"
-                alt="person foto"
-                class="person-foto"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./image/mykhailo-desk__x1.jpg 1x,
+                    ./image/mykhailo-desk__x2.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./image/mykhailo-tab__x1.jpg 1x,
+                    ./image/mykhailo-tab__x2.jpg 2x
+                  "
+                  media="(min-width:768px)"
+                />
+                <source
+                  srcset="
+                    ./image/mykhailo-mob__x1.jpg 1x,
+                    ./image/mykhailo-mob__x2.jpg 2x
+                  "
+                  media="(max-width:767px)"
+                />
+                <img
+                  src="image/mykhailo.jpg"
+                  alt="person-foto"
+                  class="person-foto"
+                />
+              </picture>
               <div class="our-team__person_block">
                 <h3 class="our-team__person_title">Михайло Єрмаков</h3>
                 <p class="our-team__person_discription">UI Designer</p>
