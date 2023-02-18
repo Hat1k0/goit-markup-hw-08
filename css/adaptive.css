@@ -5,6 +5,9 @@ img {
   height: auto;
 }
 @media screen and (max-width: 480px) {
+  .section {
+    padding-bottom: 30px;
+  }
   /* HEADER */
   .header .container {
     max-width: 320px;
