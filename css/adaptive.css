@@ -166,7 +166,13 @@ img {
   }
   /* MOB MENU */
   .mob-menu__bottom-block .mob-menu__bottom-link_tel {
+    font-size: 26px;
+  }
+  .mob-menu__top-list-item .mob-menu__top-link {
     font-size: 30px;
+  }
+  .mob-menu__bottom-list {
+    margin-left: -20px;
   }
   .mob-menu__bottom-list-item {
     padding: 0 5px;
@@ -179,7 +185,10 @@ img {
     width: 320px;
     flex-wrap: wrap;
     justify-content: start;
-    padding-right: 0px;
+    padding: 0px 10px;
+  }
+  .filter__list-item .portfolio__filter_btn {
+    padding: 7px 16px;
   }
   #filter__btn_design,
   #filter__btn_marketing {
