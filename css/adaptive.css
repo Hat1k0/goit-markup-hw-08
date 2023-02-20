@@ -659,10 +659,14 @@ img {
       padding-bottom: 118px;
     }
   }
-  .hero__title {
+  .main__hero_section .container {
+    width: 700px;
+  }
+  .container .hero__title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.35px;
+    line-height: 1.35;
+    width: 696px;
   }
 
   /* FEATURES */
