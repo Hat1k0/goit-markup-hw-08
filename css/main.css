@@ -862,7 +862,7 @@
   border: 1px solid #2196f3;
 }
 .modal__check-box:checked + .modal__label_check-box::before {
-  background-image: url(/../image/cheked.png);
+  background-image: url(../image/cheked.png);
   background-color: #2196f3;
   background-repeat: no-repeat;
   background-position: center;
